@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'Consolas';
+	src: url('/c.woff') format('woff');
+}
+html {
+	font-family: Consolas, monospace, sans-serif;
+	background-color: #26323;
+	color: #B0BEC5;
+}
+a {
+    color: #36B;
+}
+a:link, a:visited {
+  color: #B0BEC5;
+  text-decoration: underline;
+  display: inline-block;
+}
+a:hover, a:active {
+  color: #D0DEE5;
+}
+.cd {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    text-align: center;
+}
