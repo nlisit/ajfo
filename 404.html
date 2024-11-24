@@ -1,24 +1,23 @@
+<script>
+    if (window.location.pathname.startsWith('/bin')) {
+        const newPath = window.location.pathname.replace('/bin', '');
+        window.location.href = 'https://bin.aj.fo' + newPath;
+    } else {
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById('main-content').style.display = 'block';
+        });
+    }
+</script>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="main-content" style="display: none; font-family: Consolas, monospace, sans-serif; background-color: #263238; color: #B0BEC5;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, nofollow">
-    <script>
-        if (window.location.pathname.startsWith('/bin')) {
-            const newPath = window.location.pathname.replace('/bin', '');
-            window.location.href = 'https://bin.aj.fo' + newPath;
-        } else {
-            document.addEventListener("DOMContentLoaded", function() {
-                document.getElementById('main-content').style.display = 'block';
-            });
-        }
-    </script>
+    <title>404 Page Not Found</title>
 </head>
 <body>
-    <div id="main-content" style="display: none; font-family: Consolas, monospace, sans-serif; background-color: #263238; color: #B0BEC5;">
-        <title>404 Page Not Found</title>
-        <h2>404 Page Not Found</h2>
-    </div>
+    <h2>404 Page Not Found</h2>
 </body>
 </html>
