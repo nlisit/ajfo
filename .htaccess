@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^aj\.fo$ [NC]
+RewriteCond %{REQUEST_URI} ^/bin(/.*)?$
+RewriteRule ^bin(/.*)?$ https://bin.aj.fo$1 [L,R=301]
