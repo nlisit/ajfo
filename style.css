@@ -8,17 +8,19 @@ html {
 	color: #B0BEC5;
 }
 a {
-    color: #36B;
+	color: #36B;
 }
 a:link, a:visited {
-  color: #B0BEC5;
-  text-decoration: underline;
-  display: inline-block;
+	color: #B0BEC5;
+	text-decoration: underline;
+	display: inline-block;
 }
 a:hover, a:active {
-  color: #D0DEE5;
+	color: #D0DEE5;
 }
 .cd {
-    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-    text-align: center;
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%);
 }
