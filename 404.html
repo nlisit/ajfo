@@ -13,20 +13,14 @@
         } else {
             // If not starting with '/bin', add the CSS link and load the content
             document.addEventListener("DOMContentLoaded", function() {
-                // Create the CSS link element and add it to the head
-                var link = document.createElement('link');
-                link.rel = 'stylesheet';
-                link.href = '/style.css';
-                document.head.appendChild(link);
-
                 document.getElementById('main-content').style.display = 'block';
             });
         }
     </script>
 </head>
 <body>
-    <div id="main-content" style="display: none;">
-        <p>404 Page Not Found</p>
+    <div id="main-content" style="display: none; font-family: Consolas, monospace, sans-serif; background-color: #263238; color: #B0BEC5;">
+        <h2>404 Page Not Found</h2>
     </div>
 </body>
 </html>
