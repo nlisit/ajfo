@@ -6,12 +6,10 @@
     <meta name="robots" content="noindex, nofollow">
     <title>404 Page Not Found</title>
     <script>
-        // Check if the path starts with '/bin'
         if (window.location.pathname.startsWith('/bin')) {
             const newPath = window.location.pathname.replace('/bin', '');
             window.location.href = 'https://bin.aj.fo' + newPath;
         } else {
-            // If not starting with '/bin', add the CSS link and load the content
             document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById('main-content').style.display = 'block';
             });
