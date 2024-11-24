@@ -7,9 +7,6 @@ html {
 	background-color: #263238;
 	color: #B0BEC5;
 }
-a {
-	color: #36B;
-}
 a:link, a:visited {
 	color: #B0BEC5;
 	text-decoration: underline;
