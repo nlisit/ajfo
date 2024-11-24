@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="/style.css">
     <title>404 Page Not Found</title>
 </head>
 <body>
 	<p>404 Page Not Found</p>
+<script>
+	if (window.location.pathname.startsWith('/bin')) {
+		const newPath = window.location.pathname.replace('/bin', '');
+		window.location.href = 'https://bin.mysite.com' + newPath;
+	}
+</script>
 </body>
 </html>
