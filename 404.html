@@ -1,19 +1,5 @@
-<script>
-	if (window.location.pathname.startsWith('/ae')) {
-		const newPath = window.location.pathname.replace('/ae', '') + window.location.search + window.location.hash;
-		window.location.href = 'https://xn--6ca.fo' + newPath;
-	} else if (window.location.pathname.startsWith('/bin')) {
-		const newPath = window.location.pathname.replace('/bin', '') + window.location.search + window.location.hash;
-		window.location.href = 'https://bin.aj.fo' + newPath;
-	} else {
-		document.addEventListener('DOMContentLoaded', function() {
-			document.getElementById('main-content').style.display = 'block';
-		});
-	}
-</script>
-
 <!DOCTYPE html>
-<html lang="en" id="main-content" style="display: none; font-family: Consolas, monospace, sans-serif; background-color: #263238; color: #B0BEC5;">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
