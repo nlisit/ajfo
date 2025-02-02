@@ -3849,5 +3849,13 @@
                     <li><a href="ae.svg" target="_blank">ae.svg</a></li>
                     <li><a href="e50a.svg" target="_blank">e50a.svg</a></li>
             </ul>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const script = document.createElement('script');
+    script.src = 'twimoji.js';
+    script.onload = () => twemoji.parse(document.body, { base: '', folder: '/svg', ext: '.svg' });
+    document.head.appendChild(script);
+});
+</script>
 </body>
 </html>
