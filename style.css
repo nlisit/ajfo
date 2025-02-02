@@ -22,3 +22,12 @@ a:hover, a:active {
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
+
+img.emoji { 
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em;
+    vertical-align: -0.1em; 
+    padding: 0 .05em;
+    pointer-events: none;
+}
