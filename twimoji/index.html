@@ -3853,7 +3853,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const script = document.createElement('script');
     script.src = 'twimoji.js';
-    script.onload = () => twemoji.parse(document.body, { base: '', folder: '/svg', ext: '.svg' });
+    script.onload = () => twemoji.parse(document.body, { base: '', folder: '/twimoji', ext: '.svg' });
     document.head.appendChild(script);
 });
 </script>
