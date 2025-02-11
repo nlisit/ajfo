@@ -9,7 +9,9 @@
 <body>
     <h1>Files in Directory</h1>
     <p>Samples: 🇰🇳 😊 🦒</p>
-<code><meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://aj.fo; connect-src 'self' https://aj.fo; script-src 'self' https://aj.fo; style-src 'self';"></code>
+
+    <code>&lt;meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://aj.fo; connect-src 'self' https://aj.fo; script-src 'self' https://aj.fo; style-src 'self';"&gt;</code>
+    
 <pre><code>&lt;style&gt;
 img.emoji { 
     height: 1.1em;
@@ -20,6 +22,7 @@ img.emoji {
     pointer-events: none;
 }
 &lt;/style&gt;</code></pre>
+    
 <pre><code>&lt;script&gt;
 document.addEventListener('DOMContentLoaded', () =&gt; {
     const script = document.createElement('script');
