@@ -22,7 +22,20 @@ a:hover, a:active {
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
-
+code {
+	background: #456;
+	padding: 1px 3px;
+	border-radius: 3px;
+	font-family: Consolas, monospace, sans-serif;
+	letter-spacing: 0;
+}
+pre > code {
+  display: block;
+  padding: .8em 1.2em;
+  border-radius: .3em;
+  line-height: 1.1;
+  overflow-x: auto;
+}
 img.emoji { 
     height: 1em;
     width: 1em;
